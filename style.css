@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+*{
+    border: solid red 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    width: 40%;
+    margin: 25px;
+}
+figure {
+    display: flex;
+    justify-content: center;
+}
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+button{
+    display: block;
+    border: 1px blue solid;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+p {
+    display: none;
+}
