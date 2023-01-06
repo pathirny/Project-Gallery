@@ -40,7 +40,7 @@ button{
     border-radius: 10px;
     cursor: pointer;
 }
-#hidden{
+#hide1, #hide2, #hide3, #hide4{
     display: none;
 }
 p {
