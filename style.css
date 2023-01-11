@@ -1,51 +1,60 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-*{
-    border: solid red 1px;
-    font-family: 'Poppins', sans-serif;
+* {
+  border: solid red 1px;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
-    text-align: center;
+  text-align: center;
 }
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.project {
-    width: 40%;
-    margin: 25px;
+.project1, 
+.project2, 
+.project3, 
+.project4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 40%;
+  margin: 25px;
 }
 figure {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+figcaption {
+  text-align: center;
 }
 img {
-    width: 90%;
+  width: 90%;
 }
-aside{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 4rem;
+button {
+  display: block;
+  border: 1px blue solid;
+  height: 2rem;
+  width: 6rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
 }
-button{
-    display: block;
-    border: 1px blue solid;
-    height: 2rem;
-    width: 6rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-#hide1, #hide2, #hide3, #hide4{
-    display: none;
+#hide1,
+#hide2,
+#hide3,
+#hide4 {
+  display: none;
 }
 p {
-    display: none;
+  display: none;
 }
 footer {
-    text-align: center;
+  text-align: center;
 }
