@@ -54,7 +54,9 @@ button {
   border: 1px blue solid;
   height: 2rem;
   width: 6rem;
-  border-radius: 10px;
+  border-radius: 50px;
+  background-color: #5E5DF0;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
   cursor: pointer;
   margin: 10px;
   color: black;
@@ -72,6 +74,7 @@ footer {
   background-image: linear-gradient(to right, red, blue);
   text-align: center;
   width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 414px) {
